@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 100px;
+	z-index: 10;
+	background: #E5E5E5;
+}
+header .logo
+{
+	position: relative;
+	font-size: 1.5em;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 600;
+	position: relative;
+}
+header .navigation
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 10px 0;
+}
+header .navigation li
+{
+	list-style: none;
+	margin: 0 10px;
+}
+header .navigation li a
+{
+	color: #000000;
+	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+header .navigation li a:hover
+{
+	color: #ffeb3b;
+    transition-duration: 0.3s;	
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1600/https://tempatwisatadibandung.info/wp-content/uploads/2015/10/Museum-Geologi-Bandung.jpg);
+    background-position: center;
+    background-size: auto;
+}
+#form{
+    background-color: #fff;
+    height:400px;
+    width:800px;
+    margin: auto;
+    margin-top: 150px;
+    opacity:0.8;
+}
+#form h2
+{
+	position: center;
+	color: black;
+	font-size: 2em;
+}
+#first-group{
+    border:none;
+    width:400px;
+    margin-top: 38px;
+    position: absolute;
+}
+#content{
+    border: 1px solid black;
+    margin:10px;
+    margin-left: 8px;
+    padding:5px;
+}
+#content #input-group{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-left:8px;
+    width:300px;
+    color: black;
+}
+::placeholder{
+    color:black;
+}
+.fa{
+    display:inline-block;
+    color:black;
+    border-right:1px solid black;
+    padding:8px;
+    margin-left: 8px;
+}
+#second-group{
+    border:none;
+    width:400px;
+    margin-top: 55px;
+    margin-left:400px;
+}
+#second-group p
+{
+	color:#fff;
+}
+#submit-btn{
+    margin-top: 10px;
+    margin-left: 545px;
+    background: yellow;
+    color:black;
+    width:200px;
+    border:1px solid yellow;
+    outline:none;
+    padding:10px;
+    font-size: 20px;
+    opacity: 100%;
+}
+#submit-btn:hover{
+    background: black;
+    color: white;
+    transition-duration: 0.3s;
+}
